@@ -1,0 +1,13 @@
+lokasi :
+
+Unisnu : -6.61655, 110.69165
+
+Terminal Pecangaan : -6.69631, 110.70900
+
+Terminal Jepara : -6.58889, 110.66060
+
+Terminal Welahan : -6.78650, 110.72255
+
+Terminal Bangsri : -6.51964, 110.7701
+
+Terminal Kelet : -6.50288, 110.90874
