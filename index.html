@@ -1,22 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Tugas Ujian Tengah Semester 6</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
-    <link rel="stylesheet" href="dist/leaflet-routing-machine.css" />
-    <style>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Tugas Ujian Tengah Semester 6</title>
+    
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  <link rel="stylesheet" href="dist/leaflet-routing-machine.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <style>
         .map {
             height: 600px;
             width: 100%;
-        }
+		} 
     </style>
 </head>
 <body>
-    <div id="map" class="map"></div>
-    Kode pengembangan dari <a href="http://github.com/mashudisudonym/tabline" target="_blank">TABLINE</a>.
-    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-    <script src="dist/leaflet-routing-machine.js"></script>
-    <script src="control.js"></script>
-</body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo waves-effect waves-light"><img width="5%" src="maps-icon.png"> leaflet routing</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#about">About</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">About</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+<br> 
+      <div class="row">
+        <div class="col s12">
+           <div id="map" class="map">
+		   </div>
+        </div>
+      </div>
+  </div>
+    
+  <footer class="page-footer teal lighten-1">
+    <div class="container">
+      <div class="row">
+        <div id="about"class="col l6 s12 section scrollspy">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">ngak tau mau tulis apa ini critana about</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      pengembangan dari <a class="brown-text text-lighten-3" href="#">tabline</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+      <script src="js/jquery-3.2.1.min.js.download"></script>
+    <script>if (!window.jQuery) { document.write('<script src="bin/jquery-3.2.1.min.js"><\/script>'); }
+    </script>
+     <script src="js/materialize.js.download"></script>
+    <script src="js/init.js.download"></script>
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  <script src="dist/leaflet-routing-machine.js"></script>
+  <script src="control.js"></script>
+   <script type="text/javascript">
+var options = [
+    {selector: '.class', offset: 200, callback: customCallbackFunc } },
+    {selector: '.other-class', offset: 200, callback: function() {
+      customCallbackFunc();
+    } },
+  ];
+  Materialize.scrollFire(options);
+    </script>
+
+  </body>
 </html>
