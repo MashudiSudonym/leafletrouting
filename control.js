@@ -108,6 +108,3 @@ for (var i = 0; i < titik.length; i++) {
 	// mengaktifkan event klik
 	marker.on('click', onMapClick);
 }
-
-
-
